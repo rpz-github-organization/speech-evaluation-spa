@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <Evaluation />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Evaluation from './views/Evaluation.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Evaluation
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -24,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  img {
+    width: 40px;
+  }
 }
 </style>

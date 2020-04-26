@@ -1,24 +1,8 @@
-# evaluation-app
+# 展讲积分余额计算系统 - 离线版 v1.0
 
-## Project setup
-```
-yarn install
-```
+各分数执行统计人可以自行 Git Clone 下载并运行本项目。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+运行环境要求：
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Node.js 10.x+
+- npm 6.8+

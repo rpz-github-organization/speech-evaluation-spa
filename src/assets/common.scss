@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-start {
+  justify-content: flex-start;
+}
+.jc-end {
+  justify-content: flex-end;
+}
+.jc-between {
+  justify-content: space-between;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+.ai-end {
+  align-items: flex-end;
+}
+
+.bold {
+  font-weight: bold;
+}
+.tb-gap {
+  margin: 20px auto;
+}
+.lr-gap {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.no-list-style {
+  list-style: none;
+}
